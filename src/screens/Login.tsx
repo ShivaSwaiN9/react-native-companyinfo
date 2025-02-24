@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     height: 43,
     resizeMode: "contain",
     marginBottom: 20,
-    borderRadius: 60,
+    // borderRadius: 60,
   },
   title: {
     fontSize: 24,
@@ -137,6 +137,7 @@ const styles = StyleSheet.create({
     flex: 0.4,
     marginBottom: 20,
     marginTop: 20,
+    marginLeft: 27
   },
 })
 
