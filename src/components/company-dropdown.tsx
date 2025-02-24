@@ -302,14 +302,15 @@ const styles = StyleSheet.create({
     color: '#666',
   },
   modalLogo: {
-    width: 80,
-    height: 80,
-    borderRadius: 12,
-    alignSelf: 'center',
-    resizeMode:"center",
-    overflow:"hidden",
-    marginBottom: 16,
+    width: '100%', 
+    height: 100, 
+    borderRadius: 12, 
+    alignSelf: 'stretch', 
+    resizeMode: 'contain', 
+    overflow: 'hidden', 
+    marginBottom: 16, 
   },
+  
   modalTitle: {
     fontSize: 20,
     fontWeight: '600',

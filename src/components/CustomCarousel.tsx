@@ -83,6 +83,8 @@ const styles = StyleSheet.create({
     width: screenWidth,
     height: 200,
     overflow: "hidden",
+    alignItems: "center",
+    justifyContent: "center"
   },
   imageContainer: {
     flexDirection: "row",
@@ -90,15 +92,17 @@ const styles = StyleSheet.create({
   },
   imageWrapper: {
     width: imageWidth,
-    height: 160,
+    height: 180, // Increased for better centering
     justifyContent: "center",
     alignItems: "center",
+    marginRight: -1
   },
   image: {
-    width: imageWidth * 0.9,
-    height: 140,
+    width: imageWidth * 0.8, // Slightly reduced width
+    height: "100%", // Auto height to avoid cropping
   },
 })
+
 
 export default CustomCarousel
 
